@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <h1>REGISTER</h1>
+
+    <label> <b>Username:</b> </label>
+    <label>
+        <input type="text" placeholder="Enter Username" required />
+    </label><br>
+
+    <label> <b>Password:</b> </label>
+    <label>
+        <input type="text" style="-webkit-text-security: circle" placeholder="Enter Password" required />
+    </label><br>
+
+    <label> <b>Gender:</b> </label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">female</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">male</label><br>
+
+    <label> <b>Hobby:</b> </label>
+    <input type="checkbox" id="hobby1" name="hobby1" value="Music">
+    <label for="hobby1"> Music </label>
+    <input type="checkbox" id="hobby2" name="hobby2" value="Sport">
+    <label for="hobby2"> Sport </label>
+    <input type="checkbox" id="hobby3" name="hobby3" value="Reading">
+    <label for="hobby3"> Reading </label><br>
+
+    <label for="cities"><b>City:</b> </label>
+    <select id="cities" name="cities">
+        <option value="Choose the city">Choose the city</option>
+        <option value="Ho Chi Minh City">Ho Chi Minh City</option>
+        <option value="Hanoi">Hanoi</option>
+        <option value="Sydney">Sydney</option>
+    </select><br>
+
+    <a href="./index">
+        <button>Submit</button>
+    </a>
+</body>
+</html>
